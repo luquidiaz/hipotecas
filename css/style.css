@@ -428,7 +428,7 @@ button:focus {
 .home_banner_area .banner_inner {
   position: relative;
   min-height: 754px;
-  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+  background: url(../img/background_desarrollos_inmobiliarios.png) no-repeat scroll center center;
 }
 
 .home_banner_area .banner_inner .banner_content {
@@ -3719,6 +3719,16 @@ h6 {
   margin-right: -6px;
   overflow: hidden;
   margin-bottom: 20px;
+}
+
+.logo_card{
+  height:40px;
+  float: right;
+}
+
+.property-foto-card{
+  width: 100%;
+  height: 200px;
 }
 
 .properties_item .pp_content .tags a {
