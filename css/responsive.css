@@ -196,13 +196,23 @@
 @media (max-width:767px){
 	.home_banner_area {
 		min-height: 500px;
+		
 	}
 	.home_banner_area .banner_inner {
 		min-height: 500px;
+		background: #FFF;
+		margin-top: 0px !important;
+
+
 	}
 	.home_banner_area .banner_inner .banner_content {
-		margin-top: 0px;
+		margin-top: 40px;
+		width: 100%;
+		padding-top: 100px;
+
 	}
+
+
 	/* Blog Page Area css
 	============================================================================================ */
     .blog_banner .banner_inner .blog_b_text h2 {
@@ -339,8 +349,8 @@
 	/* Home Banner Area css
 	============================================================================================ */
     .home_banner_area .banner_inner .banner_content {
-		padding: 30px 15px;
-		margin-top: 0px;
+		padding: 100px 15px;
+		margin-top: 200px;
 	}
 	.banner_content .white_btn {
 		display: block;
@@ -366,5 +376,6 @@
 	}
 	.home_banner_area .banner_inner {
 		min-height: 400px;
+
 	}
 }
