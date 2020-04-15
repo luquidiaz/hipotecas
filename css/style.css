@@ -3811,7 +3811,7 @@ h6 {
 /* Feature Area css
 ============================================================================================ */
 .feature_area {
-  background: #f9f9ff;
+  background: #f7f7f7;
 }
 
 .feature_inner {
@@ -3848,7 +3848,7 @@ h6 {
 }
 
 .feature_item:hover {
-  background: #f5204b;
+  background: #ef1f3d;
   color: #fff;
 }
 
