@@ -42,6 +42,13 @@ Table of Content:
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+@font-face {
+  font-family: "DMSans";
+  src: url(./DMSans-Regular.ttf) format("truetype");
+}
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -57,7 +64,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   outline: none;
 }
@@ -69,13 +77,18 @@ a:hover, a:focus {
 body {
   line-height: 24px;
   font-size: 14px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: normal;
   color: #777777;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "DMSans",sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DMSans", sans-serif;
   font-weight: 500;
 }
 
@@ -98,15 +111,19 @@ button:focus {
   margin-top: 25px;
 }
 
+.container {
+  max-width: 1040px;
+}
+
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1040px;
   }
 }
 
-@media (min-width: 1620px) {
+@media (min-width: 1040px) {
   .box_1620 {
-    max-width: 1650px;
+    max-width: 1040px;
     margin: auto;
   }
 }
@@ -116,24 +133,28 @@ button:focus {
 .main_title {
   text-align: center;
   max-width: 720px;
-  margin: 0px auto 75px;
+  margin: 0px auto 55px;
 }
 
 .main_title h2 {
   font-weight: bold;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-size: 36px;
-  color: #222222;
+  color: #002f3a;
   margin-bottom: 12px;
 }
 
 .main_title p {
-  font-size: 14px;
-  font-family: "DMSans",sans-serif;
+  font-size: 16px;
+  font-family: "DMSans", sans-serif;
   font-weight: normal;
   line-height: 24px;
   color: #777777;
   margin-bottom: 0px;
+}
+
+p {
+  font-size: 16px;
 }
 
 /* End Main Title Area css
@@ -163,9 +184,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
-  font: 500 12px/100px "DMSans",sans-serif;
-  text-transform: uppercase;
-  color: #FFF;
+  font: 500 14px/100px "DMSans", sans-serif;
   padding: 0px;
   display: inline-block;
 }
@@ -174,7 +193,8 @@ button:focus {
   display: none;
 }
 
-.header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
+.header_area .navbar .nav .nav-item:hover .nav-link,
+.header_area .navbar .nav .nav-item.active .nav-link {
   color: #f5204b;
 }
 
@@ -213,9 +233,12 @@ button:focus {
   .home_banner_area .banner_inner {
     position: relative;
     min-height: 754px;
-    background: #FFF;
+    background: #fff;
   }
 
+  .header_area .navbar .nav .nav-item .nav-link {
+    color: #fff;
+  }
 }
 
 .header_area .navbar .nav .nav-item.submenu ul:before {
@@ -248,7 +271,7 @@ button:focus {
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
   line-height: 45px;
-  color: #222222;
+  color: #002f3a;
   padding: 0px 30px;
   -webkit-transition: all 150ms linear;
   -o-transition: all 150ms linear;
@@ -263,7 +286,6 @@ button:focus {
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
   background: #f5204b;
-  color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -271,6 +293,14 @@ button:focus {
     visibility: visible;
     opacity: 1;
     top: 100%;
+  }
+
+  .header_area .navbar .logo_h img {
+    width: 12rem;
+  }
+
+  .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+    color: #002f3a !important;
   }
 }
 
@@ -286,7 +316,7 @@ button:focus {
   font-size: 12px;
   line-height: 60px;
   display: inline-block;
-  color: #222222;
+  color: #002f3a;
   margin-left: 214px;
 }
 
@@ -294,7 +324,9 @@ button:focus {
   font-weight: 600;
 }
 
-.header_area + section, .header_area + row, .header_area + div {
+.header_area + section,
+.header_area + row,
+.header_area + div {
   margin-top: 100px;
 }
 
@@ -352,7 +384,7 @@ button:focus {
   background: #f9f9ff;
   padding: 0px 19px;
   font-size: 12px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 500;
   color: #777777;
   -webkit-transition: all 300ms linear 0s;
@@ -375,7 +407,7 @@ button:focus {
   background: #f5204b;
   padding: 0px 19px;
   font-size: 12px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 500;
   color: #fff;
   -webkit-transition: all 300ms linear 0s;
@@ -395,7 +427,7 @@ button:focus {
   border-radius: 0px;
   line-height: 28px;
   font-size: 12px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 500;
   padding-left: 19px;
   padding-right: 36px;
@@ -440,23 +472,22 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .banner_content {
-  color: #222222;
+  color: #002f3a;
   width: 40%;
 }
 
 .home_banner_area .banner_inner .banner_content h5 {
   font-size: 14px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
 
 .home_banner_area .banner_inner .banner_content h3 {
-  color: #222222;
-  font-size: 48px;
-  font-weight: bold;
-  font-family: "DMSans",sans-serif;
+  color: #002f3a;
+  font-size: 2.8rem;
+  font-family: "DMSans", sans-serif;
   margin-bottom: 30px;
   margin-top: 7px;
 }
@@ -479,8 +510,8 @@ button:focus {
 .advanced_search h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #222222;
-  font-family: "DMSans",sans-serif;
+  color: #002f3a;
+  font-family: "DMSans", sans-serif;
   margin-bottom: 25px;
 }
 
@@ -518,7 +549,7 @@ button:focus {
 
 .advanced_search .search_select .s_select .current {
   font-size: 13px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   color: #aaaaaa;
   font-weight: 300;
 }
@@ -530,7 +561,7 @@ button:focus {
 
 .advanced_search .search_select .s_select .list li {
   font-size: 13px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   color: #aaaaaa;
   font-weight: 300;
 }
@@ -545,13 +576,14 @@ button:focus {
 
 .advanced_search .search_range .range_item h5 {
   font-size: 13px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #777777;
   margin-bottom: 10px;
 }
 
-.advanced_search .search_range .range_item #slider-range, .advanced_search .search_range .range_item #slider-range2 {
+.advanced_search .search_range .range_item #slider-range,
+.advanced_search .search_range .range_item #slider-range2 {
   border: none;
   background: #eeeeee;
   border-radius: 0px;
@@ -559,12 +591,14 @@ button:focus {
   margin-bottom: 10px;
 }
 
-.advanced_search .search_range .range_item #slider-range .ui-slider-range, .advanced_search .search_range .range_item #slider-range2 .ui-slider-range {
+.advanced_search .search_range .range_item #slider-range .ui-slider-range,
+.advanced_search .search_range .range_item #slider-range2 .ui-slider-range {
   background: #f5204b;
   border-radius: 0px;
 }
 
-.advanced_search .search_range .range_item #slider-range .ui-slider-handle, .advanced_search .search_range .range_item #slider-range2 .ui-slider-handle {
+.advanced_search .search_range .range_item #slider-range .ui-slider-handle,
+.advanced_search .search_range .range_item #slider-range2 .ui-slider-handle {
   border-radius: 0px;
   border: none;
   height: 15px;
@@ -581,7 +615,7 @@ button:focus {
 
 .advanced_search .search_range .range_item .d_text {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
   padding-right: 16px;
@@ -590,7 +624,7 @@ button:focus {
 
 .advanced_search .search_range .range_item .d_text2 {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
   padding-right: 8px;
@@ -602,35 +636,35 @@ button:focus {
   display: inline-block;
   overflow: hidden;
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
 
 .advanced_search .search_range .range_item .amount.placeholder {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
 
 .advanced_search .search_range .range_item .amount:-moz-placeholder {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
 
 .advanced_search .search_range .range_item .amount::-moz-placeholder {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
 
 .advanced_search .search_range .range_item .amount::-webkit-input-placeholder {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
@@ -641,35 +675,35 @@ button:focus {
   display: inline-block;
   overflow: hidden;
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
 
 .advanced_search .search_range .range_item .amount2.placeholder {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
 
 .advanced_search .search_range .range_item .amount2:-moz-placeholder {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
 
 .advanced_search .search_range .range_item .amount2::-moz-placeholder {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
 
 .advanced_search .search_range .range_item .amount2::-webkit-input-placeholder {
   font-size: 11px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
@@ -701,7 +735,7 @@ button:focus {
 
 .blog_banner .banner_inner .overlay {
   background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
-  opacity: .5;
+  opacity: 0.5;
   height: 125%;
   position: absolute;
   left: 0px;
@@ -720,7 +754,7 @@ button:focus {
 .blog_banner .banner_inner .blog_b_text h2 {
   font-size: 60px;
   font-weight: 500;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   line-height: 66px;
   margin-bottom: 15px;
 }
@@ -768,17 +802,17 @@ button:focus {
 }
 
 .banner_area .banner_inner .banner_content h2 {
-  color: #222222;
+  color: #002f3a;
   font-size: 48px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   margin-bottom: 0px;
   font-weight: 500;
 }
 
 .banner_area .banner_inner .banner_content .page_link a {
   font-size: 14px;
-  color: #222222;
-  font-family: "DMSans",sans-serif;
+  color: #002f3a;
+  font-family: "DMSans", sans-serif;
   margin-right: 32px;
   position: relative;
   text-transform: uppercase;
@@ -805,6 +839,10 @@ button:focus {
 
 .banner_area .banner_inner .banner_content .page_link a:hover {
   color: #f5204b;
+}
+
+.icon-bar {
+  background: #002f3a !important;
 }
 
 /* End Home Banner Area css
@@ -875,8 +913,8 @@ button:focus {
 }
 
 .causes_item .causes_text h4 {
-  color: #222222;
-  font-family: "DMSans",sans-serif;
+  color: #002f3a;
+  font-family: "DMSans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -903,7 +941,7 @@ button:focus {
   line-height: 50px;
   background: #f5204b;
   color: #fff;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -912,7 +950,7 @@ button:focus {
   border-color: #eeeeee;
   background: #fff;
   font-size: 14px;
-  color: #222222;
+  color: #002f3a;
 }
 
 /* End Causes Area css
@@ -972,7 +1010,7 @@ button:focus {
   display: inline-block;
   padding: 1px 18px;
   text-align: center;
-  color: #222222;
+  color: #002f3a;
 }
 
 .tags .tag_btn:before {
@@ -1062,8 +1100,8 @@ button:focus {
 }
 
 .blog_info .post_tag a {
-  font: 300 14px/21px "DMSans",sans-serif;
-  color: #222222;
+  font: 300 14px/21px "DMSans", sans-serif;
+  color: #002f3a;
 }
 
 .blog_info .post_tag a:hover {
@@ -1075,7 +1113,7 @@ button:focus {
 }
 
 .blog_info .blog_meta li a {
-  font: 300 14px/20px "DMSans",sans-serif;
+  font: 300 14px/20px "DMSans", sans-serif;
   color: #777777;
   vertical-align: middle;
   padding-bottom: 12px;
@@ -1083,7 +1121,7 @@ button:focus {
 }
 
 .blog_info .blog_meta li a i {
-  color: #222222;
+  color: #002f3a;
   font-size: 16px;
   font-weight: 600;
   padding-left: 15px;
@@ -1106,7 +1144,7 @@ button:focus {
 .blog_details h2 {
   font-size: 24px;
   line-height: 36px;
-  color: #222222;
+  color: #002f3a;
   font-weight: 600;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -1125,7 +1163,7 @@ button:focus {
   font-size: 14px;
   line-height: 36px;
   display: inline-block;
-  color: #222222;
+  color: #002f3a;
   font-weight: 500;
   padding: 0px 30px;
   background: #fff;
@@ -1205,7 +1243,7 @@ button:focus {
 .blog_right_sidebar .author_widget h4 {
   font-size: 18px;
   line-height: 20px;
-  color: #222222;
+  color: #002f3a;
   margin-bottom: 5px;
   margin-top: 30px;
 }
@@ -1220,7 +1258,7 @@ button:focus {
 
 .blog_right_sidebar .author_widget .social_icon a {
   font-size: 14px;
-  color: #222222;
+  color: #002f3a;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -1246,7 +1284,7 @@ button:focus {
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
   font-size: 14px;
   line-height: 20px;
-  color: #222222;
+  color: #002f3a;
   margin-bottom: 4px;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -1379,7 +1417,7 @@ button:focus {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  color: #222222;
+  color: #002f3a;
   font-size: 12px;
 }
 
@@ -1465,7 +1503,7 @@ button:focus {
 }
 
 .single-post-area .social-links li a:hover {
-  color: #222222;
+  color: #002f3a;
 }
 
 .single-post-area .blog_details {
@@ -1515,7 +1553,7 @@ button:focus {
 .single-post-area .navigation-area h4 {
   font-size: 18px;
   line-height: 25px;
-  color: #222222;
+  color: #002f3a;
   font-weight: 600;
 }
 
@@ -1547,7 +1585,7 @@ button:focus {
 }
 
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -1584,7 +1622,7 @@ button:focus {
 }
 
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -1609,7 +1647,7 @@ button:focus {
 .comments-area h4 {
   text-align: center;
   margin-bottom: 50px;
-  color: #222222;
+  color: #002f3a;
   font-size: 18px;
 }
 
@@ -1620,7 +1658,7 @@ button:focus {
 }
 
 .comments-area a {
-  color: #222222;
+  color: #002f3a;
 }
 
 .comments-area .comment-list {
@@ -1664,7 +1702,7 @@ button:focus {
 
 .comments-area .btn-reply {
   background-color: #fff;
-  color: #222222;
+  color: #002f3a;
   border: 1px solid #eee;
   padding: 2px 18px;
   font-size: 12px;
@@ -1694,7 +1732,7 @@ button:focus {
   margin-bottom: 50px;
   font-size: 18px;
   line-height: 22px;
-  color: #222222;
+  color: #002f3a;
 }
 
 .comment-form .name {
@@ -1813,35 +1851,35 @@ button:focus {
   box-shadow: none;
   padding: 0px 15px;
   font-size: 13px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #999999;
 }
 
 .reservation_form .form-group input.placeholder {
   font-size: 13px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #999999;
 }
 
 .reservation_form .form-group input:-moz-placeholder {
   font-size: 13px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #999999;
 }
 
 .reservation_form .form-group input::-moz-placeholder {
   font-size: 13px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #999999;
 }
 
 .reservation_form .form-group input::-webkit-input-placeholder {
   font-size: 13px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #999999;
 }
@@ -1857,14 +1895,14 @@ button:focus {
 
 .reservation_form .form-group .res_select .current {
   font-size: 13px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 300;
   color: #999999;
 }
 
 .reservation_form .form-group .res_select:after {
   content: "\e874";
-  font-family: 'Linearicons-Free';
+  font-family: "Linearicons-Free";
   color: #cccccc;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -1905,14 +1943,14 @@ button:focus {
 .contact_info .info_item h6 {
   font-size: 16px;
   line-height: 24px;
-  color: "DMSans",sans-serif;
+  color: "DMSans", sans-serif;
   font-weight: bold;
   margin-bottom: 0px;
-  color: #222222;
+  color: #002f3a;
 }
 
 .contact_info .info_item h6 a {
-  color: #222222;
+  color: #002f3a;
 }
 
 .contact_info .info_item p {
@@ -1930,7 +1968,7 @@ button:focus {
   line-height: 26px;
   color: #999;
   border: 1px solid #eeeeee;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   border-radius: 0px;
   padding-left: 20px;
 }
@@ -2007,7 +2045,7 @@ button:focus {
   text-align: center;
   color: #f5204b;
   padding-bottom: 10px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
 }
 
 .modal-message .modal-dialog .modal-content .modal-header p {
@@ -2024,26 +2062,22 @@ button:focus {
   text-align: center;
 }
 
-
-
-.clients_logo_area .clients_slider .logo-nosotros img{
+.clients_logo_area .clients_slider .logo-nosotros img {
   height: 60px;
   width: 120px;
   text-align: center;
   display: block;
   margin: auto;
   line-height: 70px;
-  opacity: .5;
+  opacity: 0.5;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
 }
 
-
 .clients_logo_area .clients_slider .logo-nosotros:hover img {
   opacity: 1;
 }
-
 
 /* End Clients Logo Area css
 ============================================================================================ */
@@ -2102,11 +2136,11 @@ button:focus {
 /*==============Elements Button Area css ================*/
 .elements_button .title_color {
   margin-bottom: 30px;
-  color: #222222;
+  color: #002f3a;
 }
 
 .title_color {
-  color: #222222;
+  color: #002f3a;
 }
 
 .button-group-area {
@@ -2131,7 +2165,7 @@ button:focus {
 
 .button-group-area .link {
   text-decoration: underline;
-  color: #222222;
+  color: #002f3a;
   background: transparent;
 }
 
@@ -2392,10 +2426,6 @@ button:focus {
   }
 }
 
-b, sup, sub, u, del {
-  color: #f8b600;
-}
-
 h1 {
   font-size: 36px;
 }
@@ -2420,7 +2450,12 @@ h6 {
   font-size: 14px;
 }
 
-.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
   color: #777777;
 }
 
@@ -2447,7 +2482,7 @@ h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -2501,7 +2536,7 @@ h6 {
 }
 
 .genric-btn.default {
-  color: #222222;
+  color: #002f3a;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
@@ -2517,7 +2552,7 @@ h6 {
 }
 
 .genric-btn.default-border:hover {
-  color: #222222;
+  color: #002f3a;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
@@ -2643,33 +2678,33 @@ h6 {
 }
 
 .genric-btn.link {
-  color: #222222;
+  color: #002f3a;
   background: #f9f9ff;
   text-decoration: underline;
   border: 1px solid transparent;
 }
 
 .genric-btn.link:hover {
-  color: #222222;
+  color: #002f3a;
   border: 1px solid #f9f9ff;
   background: #fff;
 }
 
 .genric-btn.link-border {
-  color: #222222;
+  color: #002f3a;
   border: 1px solid #f9f9ff;
   background: #fff;
   text-decoration: underline;
 }
 
 .genric-btn.link-border:hover {
-  color: #222222;
+  color: #002f3a;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
 
 .genric-btn.disable {
-  color: #222222, 0.3;
+  color: #002f3a, 0.3;
   background: #f9f9ff;
   border: 1px solid transparent;
   cursor: not-allowed;
@@ -2717,8 +2752,11 @@ h6 {
   display: flex;
 }
 
-.progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
-  color: #222222;
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
+  color: #002f3a;
   line-height: 40px;
   text-transform: uppercase;
   font-weight: 500;
@@ -2732,7 +2770,10 @@ h6 {
   display: flex;
 }
 
-.progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2801,7 +2842,7 @@ h6 {
 }
 
 .single-gallery-image:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .list-style {
@@ -3192,7 +3233,7 @@ h6 {
 }
 
 .single-defination h4 {
-  color: #222222;
+  color: #002f3a;
 }
 
 .primary-checkbox input:checked + label {
@@ -3537,11 +3578,11 @@ h6 {
 ============================================================================================ */
 .main_btn {
   display: inline-block;
-  background: #f5204b;
-  padding: 0px 50px;
+  background: #ef203e;
+  padding: 0px 30px;
   color: #fff;
-  font-family: "DMSans",sans-serif;
-  font-size: 13px;
+  font-family: "DMSans", sans-serif;
+  font-size: 14px;
   font-weight: 500;
   line-height: 48px;
   border-radius: 0px;
@@ -3549,11 +3590,13 @@ h6 {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   text-align: center;
-  border: 1px solid #ef1f3d;
+  border: 1px solid #ef203e;
   cursor: pointer;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(111, 111, 111, 0.384);
 }
 
 .main_btn:hover {
@@ -3566,7 +3609,7 @@ h6 {
   background: #f5204b;
   padding: 0px 32px;
   color: #fff;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 38px;
@@ -3593,7 +3636,7 @@ h6 {
   background: #f5204b;
   padding: 0px 50px;
   color: #fff;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 50px;
@@ -3618,8 +3661,8 @@ h6 {
   display: inline-block;
   background: #f9f9ff;
   padding: 0px 35px;
-  color: #222222;
-  font-family: "DMSans",sans-serif;
+  color: #002f3a;
+  font-family: "DMSans", sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 34px;
@@ -3662,8 +3705,8 @@ h6 {
 }
 
 .welcome_text h4 {
-  color: #222222;
-  font-family: "DMSans",sans-serif;
+  color: #002f3a;
+  font-family: "DMSans", sans-serif;
   font-size: 36px;
   margin-bottom: 18px;
 }
@@ -3671,7 +3714,7 @@ h6 {
 .welcome_text p {
   max-width: 495px;
   line-height: 24px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-size: 14px;
   font-weight: normal;
   margin-bottom: 40px;
@@ -3689,16 +3732,16 @@ h6 {
 
 .wel_item h4 {
   font-size: 24px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 600;
-  color: #222222;
+  color: #002f3a;
   margin-bottom: 5px;
   margin-top: 10px;
 }
 
 .wel_item p {
   font-size: 14px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   color: #777777;
   margin-bottom: 0px;
 }
@@ -3713,19 +3756,19 @@ h6 {
 
 .properties_item {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 6px rgba(111, 111, 111, 0.384);
   border-radius: 10px;
 }
 
 .properties_item .pp_content {
-  padding: 30px;
+  padding: 22px;
 }
 
 .properties_item .pp_content h4 {
   font-size: 18px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 500;
-  color: #222222;
+  color: #002f3a;
   margin-bottom: 15px;
 }
 
@@ -3735,14 +3778,15 @@ h6 {
   margin-bottom: 20px;
 }
 
-.logo_card{
-  height:40px;
+.logo_card {
+  height: 40px;
   float: right;
 }
 
-.property-foto-card{
+.property-foto-card {
   width: 100%;
   height: 200px;
+  border-radius: 10px 10px 0 0;
 }
 
 .properties_item .pp_content .tags a {
@@ -3752,12 +3796,11 @@ h6 {
   padding: 0px 20px;
   line-height: 34px;
   border: 1px solid #eeeeee;
-  border-radius: 3px;
+  border-radius: 30px;
   background: #f9f9ff;
-  font-size: 14px;
+  font-size: 12.5px;
   color: #777777;
-  font-family: "DMSans",sans-serif;
-  border-radius: 5px;
+  font-family: "DMSans", sans-serif;
 }
 
 .properties_item .pp_content .tags a i {
@@ -3779,9 +3822,9 @@ h6 {
 .properties_item .pp_content .pp_footer h5 {
   display: inline-block;
   font-weight: 500;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-size: 18px;
-  color: #222222;
+  color: #002f3a;
   position: relative;
   top: 9px;
 }
@@ -3834,13 +3877,21 @@ h6 {
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
+  box-shadow: 0 0 6px rgba(111, 111, 111, 0.2);
+  min-height: 245px;
+}
+
+@media (max-width: 767px) {
+  .feature_item {
+    min-height: auto;
+  }
 }
 
 .feature_item h4 {
   font-size: 18px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 500;
-  color: #222222;
+  color: #002f3a;
   margin-bottom: 20px;
 }
 
@@ -3871,10 +3922,20 @@ h6 {
 /* Testimonials Area css
 ============================================================================================ */
 .testimonials_area {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../img/testimonials/testi-bg.jpg") no-repeat scroll center center;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.75) 100%, rgba(0, 0, 0, 0.75) 100%), url("../img/testimonials/testi-bg.jpg") no-repeat scroll center center;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.75) 100%, rgba(0, 0, 0, 0.75) 100%), url("../img/testimonials/testi-bg.jpg") no-repeat scroll center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.75) 100%, rgba(0, 0, 0, 0.75) 100%), url("../img/testimonials/testi-bg.jpg") no-repeat scroll center center;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(100%, rgba(0, 0, 0, 0.75)),
+      to(rgba(0, 0, 0, 0.75))
+    ),
+    url("../img/testimonials/testi-bg.jpg") no-repeat scroll center center;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.75) 100%, rgba(0, 0, 0, 0.75) 100%),
+    url("../img/testimonials/testi-bg.jpg") no-repeat scroll center center;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.75) 100%, rgba(0, 0, 0, 0.75) 100%),
+    url("../img/testimonials/testi-bg.jpg") no-repeat scroll center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.75) 100%, rgba(0, 0, 0, 0.75) 100%),
+    url("../img/testimonials/testi-bg.jpg") no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -3940,14 +4001,14 @@ h6 {
 .testi_item p {
   line-height: 24px;
   color: #999;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   margin-bottom: 25px;
 }
 
 .testi_item h4 {
   font-size: 18px;
   color: #fff;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-weight: 600;
   margin-bottom: 5px;
   -webkit-transition: all 300ms linear 0s;
@@ -3962,7 +4023,7 @@ h6 {
 .testi_item h6 {
   line-height: 24px;
   color: #999999;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   font-size: 14px;
 }
 
@@ -4014,7 +4075,7 @@ h6 {
   font-size: 14px;
   color: #fff;
   margin-right: 20px;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .team_item .team_img .hover a:last-child {
@@ -4032,15 +4093,15 @@ h6 {
 
 .team_item .team_name h4 {
   margin-bottom: 5px;
-  color: #222222;
-  font-family: "DMSans",sans-serif;
+  color: #002f3a;
+  font-family: "DMSans", sans-serif;
   font-weight: 500;
   font-size: 18px;
 }
 
 .team_item .team_name p {
   font-size: 14px;
-  font-family: "DMSans",sans-serif;
+  font-family: "DMSans", sans-serif;
   color: #777777;
   margin-bottom: 0px;
 }
@@ -4132,7 +4193,7 @@ h6 {
 }
 
 .single-footer-widget .sub-btn {
-  background:#ef1f3d;
+  background: #ef1f3d;
   color: #fff;
   font-weight: 300;
   border-radius: 0;
@@ -4150,12 +4211,10 @@ h6 {
 }
 
 .footer_title {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   color: #002f3a;
-  text-transform: uppercase;
-  margin-bottom: 28px;
 }
 
 .border_line {
@@ -4165,20 +4224,24 @@ h6 {
   margin-top: 30px;
 }
 
+.footer_column a {
+  margin-top: 10px;
+}
+
 .footer-bottom {
   padding-top: 70px;
 }
 
-.footer_column{
+.footer_column {
   display: flex;
   flex-direction: column;
 }
 
-.footer_p{
-  font-size: 12px;
+.footer_p {
+  font-size: 16px;
 
   font-weight: 300;
-  color: #777777;
+  color: #002f3a;
 }
 
 .footer-bottom .footer-text {
@@ -4214,20 +4277,55 @@ h6 {
 }
 
 .f_social_wd .f_social a {
-  font-size: 14px;
-  color: #cccccc;
+  font-size: 23px;
+  color: #002f3a;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   margin-right: 20px;
 }
 
-.f_social_wd .f_social a:hover {
-  color: #f5204b;
-}
-
 .f_social_wd .f_social a:last-child {
   margin-right: 0px;
+}
+
+.fa-facebook {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fa-facebook:hover {
+  background-color: rgba(61, 91, 153, 1);
+}
+
+.fa-twitter {
+  padding: 10px 12px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fa-twitter:hover {
+  background-color: rgba(0, 172, 237, 1);
+}
+
+.fa-instagram {
+  padding: 10px 12px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fa-instagram:hover {
+  background-color: rgba(205, 72, 107, 1);
 }
 
 /*---------------------------------------------------- */
