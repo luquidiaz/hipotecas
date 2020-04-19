@@ -165,7 +165,7 @@ button:focus {
 .header_area .navbar .nav .nav-item .nav-link {
   font: 500 12px/100px "DMSans",sans-serif;
   text-transform: uppercase;
-  color: #222222;
+  color: #FFF;
   padding: 0px;
   display: inline-block;
 }
@@ -209,6 +209,13 @@ button:focus {
     padding: 0px;
     border-radius: 0px;
   }
+
+  .home_banner_area .banner_inner {
+    position: relative;
+    min-height: 754px;
+    background: #FFF;
+  }
+
 }
 
 .header_area .navbar .nav .nav-item.submenu ul:before {
