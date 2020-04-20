@@ -79,7 +79,7 @@ body {
   font-size: 14px;
   font-family: "DMSans", sans-serif;
   font-weight: normal;
-  color: #777777;
+  color: #002f3a;
 }
 
 h1,
@@ -149,7 +149,7 @@ button:focus {
   font-family: "DMSans", sans-serif;
   font-weight: normal;
   line-height: 24px;
-  color: #777777;
+  color: #002f3a;
   margin-bottom: 0px;
 }
 
@@ -386,7 +386,7 @@ p {
   font-size: 12px;
   font-family: "DMSans", sans-serif;
   font-weight: 500;
-  color: #777777;
+  color: #002f3a;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
@@ -417,7 +417,7 @@ p {
 
 .top_menu .dn_btn:hover {
   background: transparent;
-  color: #777777;
+  color: #002f3a;
   border-color: #f5204b;
 }
 
@@ -431,14 +431,14 @@ p {
   font-weight: 500;
   padding-left: 19px;
   padding-right: 36px;
-  color: #777777;
+  color: #002f3a;
   background: #f9f9ff;
   margin-right: 5px;
   margin-top: 8px;
 }
 
 .top_menu .lan_pack .current {
-  color: #777777;
+  color: #002f3a;
 }
 
 .top_menu .lan_pack:after {
@@ -542,7 +542,7 @@ p {
   transform: rotate(0deg);
   border: none;
   font-size: 13px;
-  color: #777777;
+  color: #002f3a;
   margin-top: -5px;
   right: 22px;
 }
@@ -578,7 +578,7 @@ p {
   font-size: 13px;
   font-family: "DMSans", sans-serif;
   font-weight: 300;
-  color: #777777;
+  color: #002f3a;
   margin-bottom: 10px;
 }
 
@@ -928,7 +928,7 @@ p {
 .causes_item .causes_text p {
   font-size: 14px;
   line-height: 24px;
-  color: #777777;
+  color: #002f3a;
   font-weight: 300;
   margin-bottom: 0px;
 }
@@ -987,7 +987,7 @@ p {
 }
 
 .single-recent-blog-post .details .sec_h4:hover {
-  color: #777777;
+  color: #002f3a;
 }
 
 .single-recent-blog-post .date {
@@ -1105,7 +1105,7 @@ p {
 }
 
 .blog_info .post_tag a:hover {
-  color: #777777;
+  color: #002f3a;
 }
 
 .blog_info .post_tag a.active {
@@ -1114,7 +1114,7 @@ p {
 
 .blog_info .blog_meta li a {
   font: 300 14px/20px "DMSans", sans-serif;
-  color: #777777;
+  color: #002f3a;
   vertical-align: middle;
   padding-bottom: 12px;
   display: inline-block;
@@ -1696,7 +1696,7 @@ p {
 }
 
 .comments-area .comment {
-  color: #777777;
+  color: #002f3a;
   margin-bottom: 0px;
 }
 
@@ -1763,7 +1763,7 @@ p {
   border-radius: 0px;
   width: 100%;
   font-size: 14px;
-  color: #777777;
+  color: #002f3a;
   border: 1px solid transparent;
 }
 
@@ -2456,7 +2456,7 @@ h6 {
 .typography h4,
 .typography h5,
 .typography h6 {
-  color: #777777;
+  color: #002f3a;
 }
 
 .button-area .border-top-generic {
@@ -2881,7 +2881,7 @@ h6 {
 
 .ordered-list li span {
   font-weight: 300;
-  color: #777777;
+  color: #002f3a;
 }
 
 .ordered-list-alpha li {
@@ -2894,7 +2894,7 @@ h6 {
 
 .ordered-list-alpha li span {
   font-weight: 300;
-  color: #777777;
+  color: #002f3a;
 }
 
 .ordered-list-roman li {
@@ -2907,7 +2907,7 @@ h6 {
 
 .ordered-list-roman li span {
   font-weight: 300;
-  color: #777777;
+  color: #002f3a;
 }
 
 .single-input {
@@ -3742,7 +3742,7 @@ h6 {
 .wel_item p {
   font-size: 14px;
   font-family: "DMSans", sans-serif;
-  color: #777777;
+  color: #002f3a;
   margin-bottom: 0px;
 }
 
@@ -3799,7 +3799,7 @@ h6 {
   border-radius: 30px;
   background: #f9f9ff;
   font-size: 12.5px;
-  color: #777777;
+  color: #002f3a;
   font-family: "DMSans", sans-serif;
 }
 
@@ -4102,7 +4102,7 @@ h6 {
 .team_item .team_name p {
   font-size: 14px;
   font-family: "DMSans", sans-serif;
-  color: #777777;
+  color: #002f3a;
   margin-bottom: 0px;
 }
 
@@ -4125,7 +4125,7 @@ h6 {
 
 .single-footer-widget p {
   margin-bottom: 0px;
-  color: #777777;
+  color: #002f3a;
   max-width: 235px;
 }
 
@@ -4272,7 +4272,7 @@ h6 {
 
 .f_social_wd p {
   font-size: 14px;
-  color: #777777;
+  color: #002f3a;
   margin-bottom: 15px;
 }
 
