@@ -193,11 +193,6 @@ p {
   display: none;
 }
 
-.header_area .navbar .nav .nav-item:hover .nav-link,
-.header_area .navbar .nav .nav-item.active .nav-link {
-  color: #f5204b;
-}
-
 .header_area .navbar .nav .nav-item.submenu {
   position: relative;
 }
