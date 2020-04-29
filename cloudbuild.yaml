@@ -1,3 +1,15 @@
 steps:
   - name: gcr.io/cloud-builders/gsutil
-    args: ["-m", "rsync", "-r", "-c", "-d", "./", "gs://desarrollos.mudafy.com"]
+    args: ["rm", "gs://desarrollos.mudafy.com/**"]
+  - name: gcr.io/cloud-builders/gsutil
+    args:
+      [
+        "cp",
+        "-r",
+        "-c",
+        "-z",
+        "css,js,map,html,htm",
+        "./",
+        "gs://desarrollos.mudafy.com",
+      ]
+
