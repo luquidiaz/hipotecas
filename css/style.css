@@ -76,7 +76,7 @@ a:focus {
 
 body {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 12px;
   font-family: "DMSans", sans-serif;
   font-weight: normal;
   color: #002f3a;
@@ -102,6 +102,8 @@ button:focus {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+
 
 .pad_top {
   padding-top: 120px;
@@ -2388,6 +2390,14 @@ p {
 .section-top-border {
   padding: 50px 0;
   border-top: 1px dotted #eee;
+  display: flex;
+  justify-content: center;
+
+}
+
+.center-items{
+  display: flex;
+  justify-content: space-between;
 }
 
 .switch-wrap {
@@ -3234,8 +3244,24 @@ h6 {
   border: 1px solid #f1f1f1;
 }
 
+.single-defination{
+  text-align: center;
+
+}
+
 .single-defination h4 {
   color: #002f3a;
+  text-align: center;
+
+}
+
+.steps{
+  font-size: 45px;
+}
+
+.col-m2-steps{
+  max-width: 100%;
+
 }
 
 .primary-checkbox input:checked + label {
@@ -3906,6 +3932,7 @@ h6 {
 
 .feature_item p {
   margin-bottom: 0px;
+  font-size: 13px;
 }
 
 .feature_item:hover {
