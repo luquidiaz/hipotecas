@@ -2054,7 +2054,7 @@ p {
 }
 
 .modal-message .modal-dialog .modal-content .modal-header p {
-  display: block;
+  /*display: block;*/
 }
 
 /* End Contact Success and error Area css
@@ -2071,8 +2071,15 @@ p {
   text-align: center;
 }
 
+.logo-row{
+  display: flex;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 .clients_logo_area .clients_slider .logo-nosotros img {
-  height: 60px;
+  height: 100%;
   width: 120px;
   text-align: center;
   display: block;
@@ -2087,7 +2094,7 @@ p {
 .clients_logo_area .clients_slider .logo-nosotros:hover img {
   /* opacity: 1; */
   /* transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  height: 72px;
+  height: 100%;
   width: 144px;
 }
 
