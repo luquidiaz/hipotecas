@@ -227,6 +227,9 @@ p {
     border-radius: 0px;
   }
 
+
+
+
   .home_banner_area .banner_inner {
     position: relative;
     min-height: 754px;
@@ -1589,6 +1592,11 @@ p {
   .single-post-area .navigation-area .nav-left {
     margin-bottom: 30px;
   }
+}
+
+.medios{
+  width: 100px;
+  height: 100%;
 }
 
 .single-post-area .navigation-area .nav-right {
@@ -3268,6 +3276,12 @@ h6 {
   background: url(../img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
+
+.medios{
+  height: 100px;
+}
+
+
 
 .confirm-checkbox {
   width: 16px;
