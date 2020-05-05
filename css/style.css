@@ -80,6 +80,7 @@ body {
   font-family: "DMSans", sans-serif;
   font-weight: normal;
   color: #002f3a;
+  background: #fcf7f5;
 }
 
 h1,
@@ -159,6 +160,10 @@ p {
   font-size: 16px;
 }
 
+
+
+
+
 /* End Main Title Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -233,7 +238,7 @@ p {
   .home_banner_area .banner_inner {
     position: relative;
     min-height: 754px;
-    background: #fff;
+    background: #fcf7f5;
   }
 
   .header_area .navbar .nav .nav-item .nav-link {
@@ -375,6 +380,29 @@ p {
 
 .top_menu .header_social li:hover a {
   color: #f5204b;
+}
+
+.typeform-share {
+  display:inline-block;
+  text-decoration:none;
+  background-color:#3F62C8;
+  color:white;
+  cursor:pointer;
+  font-family:Helvetica,Arial,sans-serif;
+  font-size:17px;
+  line-height:42.5px;
+  text-align:center;
+  margin:0;
+  height:42.5px;
+  padding:0px 28px;
+  border-radius:3px;
+  max-width:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-weight:bold;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
 .top_menu .ac_btn {
@@ -4170,7 +4198,7 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background: #ffffff;
+  background #fcf7f5;
 }
 
 .single-footer-widget p {
